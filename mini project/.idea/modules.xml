@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iFit_Coach.iml" filepath="$PROJECT_DIR$/.idea/modules/iFit_Coach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/iFit_Coach.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/iFit_Coach.app.iml" />
+    </modules>
+  </component>
+</project>

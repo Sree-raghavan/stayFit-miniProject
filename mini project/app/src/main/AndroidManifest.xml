@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stayfit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Stay fit"
+        android:resizeableActivity="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.stayfit.ViewMessagesActivity"/>
+        <activity android:name="com.example.stayfit.MessagesActivity" />
+        <activity android:name="com.example.stayfit.ServiceManagerActivity" />
+        <activity android:name="com.example.stayfit.OrdersActivity" />
+        <activity android:name="com.example.stayfit.ViewServiceActivity" />
+        <activity android:name="com.example.stayfit.GoalsActivity" />
+        <activity android:name="com.example.stayfit.AddWorkoutActivity" />
+        <activity android:name="com.example.stayfit.ConnectionsActivity" />
+        <activity android:name="com.example.stayfit.RequestActivity" />
+        <activity android:name="com.example.stayfit.ServiceActivity" />
+        <activity android:name="com.example.stayfit.PostCommentActivity" />
+        <activity android:name="com.example.stayfit.CreateServiceActivity" />
+        <activity android:name="com.example.stayfit.AddFoodActivity" />
+        <activity
+            android:name="com.example.stayfit.FindActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.PostActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.CreateFoodActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.DiaryActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.FoodListActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.AccountTypeActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.CreatePostActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.SetupActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.stayfit.LoginActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.CreateAccountActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.example.stayfit.MainActivity"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.stayfit.SplashActivity"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "412538418900",
+    "firebase_url": "https://miniproject-9991c-default-rtdb.firebaseio.com",
+    "project_id": "miniproject-9991c",
+    "storage_bucket": "miniproject-9991c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412538418900:android:44243445386fb981a6ed41",
+        "android_client_info": {
+          "package_name": "com.example.stayfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412538418900-dhjkurkf3ebs8d0uto2cdfq9s1sn589j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stayfit",
+            "certificate_hash": "3e7bd113aa3746dc209023cfc32a89d6662ab6a7"
+          }
+        },
+        {
+          "client_id": "412538418900-3g7pp15ii4ijctgk701gkral2e9ieval.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVyglk3fEKRaCzMofK2pgl1KxAzZwJyy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412538418900-3g7pp15ii4ijctgk701gkral2e9ieval.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
